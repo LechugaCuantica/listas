@@ -7,6 +7,12 @@ int = np.array([
     [56, 64, 37],
     [34, 75, 26]], dtype=int)
 
+string = np.array([
+    ['hola', 'mundo'],
+    ['programacion', 'python'],
+    ['inteligencia', 'artificial']
+], dtype=str)
+
 float = np.array([
     [4., 5., 6.],
     [7., 8., 9.],
@@ -44,7 +50,7 @@ print(b)
 a = [[1, 2, 3, 4], [5, 6], [7, 8, 9]]
 for i in range(len(a)):
     for j in range(len(a[i])):
-        print(a[i][j], end=' ')
+        print(a[i][j])
     print()
 
 
@@ -104,5 +110,3 @@ for i in range(n):
     for i in range(len(row)):
         row[i] = int(row[i])
     a.append(row)
-
-    
